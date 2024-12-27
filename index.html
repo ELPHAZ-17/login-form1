@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-logo"> <img src="https://i.pinimg.com/736x/70/1e/50/701e50103ebb4a8c0901a0b401da9ffa.jpg" width="70px" height="70px" alt="logo"></div>
+
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <a href="/forgot-password">Forgot Password?</a>
+            <button class="btn btn-primary" type="submit">Sign In</button>
+        </form>
+        <p class="or">Or sign in with</p>
+        <div class="social-login">
+            <a href="https://accounts.google.com/" target="_blank">
+                <img src="https://i.pinimg.com/736x/79/fb/38/79fb381ce1ed40ebef050dc0a16d0386.jpg" alt="Google">
+            </a>
+            <a href="https://github.com/login" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+            </a>
+            <a href="https://www.facebook.com/login/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+        </div>
+        <a href="/signup">Sign Up</a>
+    </div>
+</body>
+
+</html>
